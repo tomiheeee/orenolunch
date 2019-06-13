@@ -43,6 +43,12 @@ post '/callback' do
             text: '写真には非対応だよ！!'
         }
         client.reply_message(event['replyToken'], message)
+      when Line::Bot::Event::MessageType::Location
+          p event["message"]["latitude"]
+          p event["message"]["longitude"]
+# 65 APIを呼び出す関数です
+           p stations(event["message"]["longitude"], event["message"]["latitude"])
+      end
       end
     end
   end
