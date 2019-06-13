@@ -33,6 +33,11 @@ post '/callback' do
         tf = Tempfile.open("content")
         tf.write(response.body)
       end
+      if event.message['text'] =~ /おみくじ/
+        message[:text] =
+            ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
+      end
+
     end
   end
 
