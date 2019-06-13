@@ -28,7 +28,7 @@ post '/callback' do
               type: 'text',
               text:  ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
           }
-        elsif event.message['text'] =~ /駅/
+        elsif event.message['text'] =~ /OL/
           client.reply_message(event['replyToken'], template)
         else
         message = {
