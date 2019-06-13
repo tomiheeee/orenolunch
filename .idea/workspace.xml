@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0419aaf-be25-4e0f-a1cc-9ebbc1921c50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/line.rb" beforeDir="false" afterPath="$PROJECT_DIR$/src/line.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +21,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -49,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/line.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="690">
+              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -61,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/sinatra-2.0.5/lib/sinatra/base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="381">
               <caret line="1283" column="10" selection-start-line="1283" selection-start-column="10" selection-end-line="1283" selection-end-column="10" />
             </state>
           </provider>
@@ -91,8 +90,8 @@
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config.ru" />
-        <option value="$PROJECT_DIR$/src/line.rb" />
         <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/src/line.rb" />
       </list>
     </option>
   </component>
@@ -163,12 +162,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560399764202</updated>
-      <workItem from="1560399766286" duration="7973000" />
+      <workItem from="1560399766286" duration="8064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7973000" />
+    <option name="totallyTimeSpent" value="8064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
@@ -258,24 +257,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/sinatra-2.0.5/lib/sinatra/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="381">
           <caret line="1283" column="10" selection-start-line="1283" selection-start-column="10" selection-end-line="1283" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/line.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="690">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
         </state>
       </provider>
     </entry>
