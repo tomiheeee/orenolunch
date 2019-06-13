@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0419aaf-be25-4e0f-a1cc-9ebbc1921c50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/line.rb" beforeDir="false" afterPath="$PROJECT_DIR$/src/line.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/line.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="405">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -145,12 +144,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560399764202</updated>
-      <workItem from="1560399766286" duration="4828000" />
+      <workItem from="1560399766286" duration="4899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4828000" />
+    <option name="totallyTimeSpent" value="4899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
@@ -242,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/line.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="405">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
         </state>
       </provider>
     </entry>
