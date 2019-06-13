@@ -2,6 +2,7 @@ require 'bundler/setup'
 Bundler.require
 require 'sinatra/reloader'
 require './src/line'
+require 'net/http'
 require 'json'
 
 GNAVI_KEYID = "cdb4d51db76b36b23c2740c4ceb9f933"
@@ -20,7 +21,7 @@ helpers do
         "altText": "OL検索中",
         "template": {
             "type": "buttons",
-            "title": "最寄りのOLを探索",
+            "title": "最寄りのOLを検索",
             "text": "現在の位置を送信しますか？",
             "actions": [
                 {
@@ -35,15 +36,15 @@ helpers do
 
 
   # 送られた位置情報から緯度,経度を取得
-  def get_location (longitude, latitude)
-    uri = URI("http://express.heartrails.com/api/json")
+  def get_location(longitude, latitude)
+    uri = URI(GNAVI_SEARCHAPI)
     uri.query = URI.encode_www_form({
     method: "getRestaurants",
         x: longitude,
         y: latitude
     })
     res = Net::HTTP.get_response(uri)
-    JSON.parse(res.body)["response"]["station"]
+    JSON.parse(res.body)["name"]
   end
 
   # ぐるなびAPIでレストランを検索
@@ -53,6 +54,25 @@ helpers do
     restaurants = JSON.parse(RestClient.get GNAVI_SEARCHAPI + params)
     restaurants
   end
+
+  def gnavi_api(latitude, longitude):
+      key = GNAVI_KEYID
+      url = GNAVI_SEARCHAPI
+      search_range = '1' # 半径300mを検索
+  params = urllib.parse.urlencode({
+                                      'keyid': key,
+                                      'latitude': latitude,
+                                      'longitude': longitude,
+                                      'range': search_range,
+                                      'freeword': freeword
+                                      # 最大10件
+
+  })
+  try:
+      response = urllib.request.urlopen(url + '?' + params)
+  return response.read()
+  except:
+      raise Exception('ぐるなびAPIへのアクセスに失敗しました')
 
   # APIで取得したレストラン情報をLINEで送信できる構文に整形
   def set_restaurants_info restaurants

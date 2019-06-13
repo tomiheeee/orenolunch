@@ -33,7 +33,7 @@ post '/callback' do
         else
         message = {
             type: 'text',
-            text: 'カテゴリーと位置情報からレストランを検索します。レストランを検索したい場合は、「OL」と話しかけてね！'
+            text: '位置情報から俺のオススメのレストランを検索します。レストランを検索したい場合は、「OL」と話しかけてね！'
         }
         end
         client.reply_message(event['replyToken'], message)
@@ -51,7 +51,6 @@ post '/callback' do
       end
       end
     end
-  end
 
   # Don't forget to return a successful response
   "OK"
