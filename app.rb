@@ -73,6 +73,7 @@ helpers do
   return response.read()
   except:
       raise Exception('ぐるなびAPIへのアクセスに失敗しました')
+  end
 
   # APIで取得したレストラン情報をLINEで送信できる構文に整形
   def set_restaurants_info restaurants
