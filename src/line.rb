@@ -24,13 +24,16 @@ post '/callback' do
       case event.type
       when Line::Bot::Event::MessageType::Text
         if event.message['text'] =~ /おみくじ/
-          message[:text] =
-              ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
-        end
+          message = {
+              type: 'text',
+              text:  ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
+          }
+        else
         message = {
             type: 'text',
             text: 'TTタイムだよ!'
         }
+        end
         client.reply_message(event['replyToken'], message)
       when Line::Bot::Event::MessageType::Image, Line::Bot::Event::MessageType::Video
         message = {
