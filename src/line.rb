@@ -25,7 +25,7 @@ post '/callback' do
       when Line::Bot::Event::MessageType::Text
         message = {
             type: 'text',
-            text: event.message['text']
+            text: "TTタイムだよ！"
         }
         client.reply_message(event['replyToken'], message)
       when Line::Bot::Event::MessageType::Image, Line::Bot::Event::MessageType::Video
@@ -33,10 +33,10 @@ post '/callback' do
         tf = Tempfile.open("content")
         tf.write(response.body)
       end
-      if event.message['text'] =~ /おみくじ/
+      when event.message['text'] =~ /おみくじ/
         message[:text] =
             ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
-      end
+    end
 
     end
   end
