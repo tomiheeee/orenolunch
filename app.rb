@@ -25,6 +25,5 @@ def template
             }
         ]
     }
-}
 end
 
