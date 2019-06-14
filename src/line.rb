@@ -35,26 +35,20 @@ post '/callback' do
                   "stickerId": "51626498"
           }
 
-        elsif event.message['text'] =~ /おなかすいた/
-          message =[ {
-              "type": "sticker",
-              "packageId": "11538 ",
-              "stickerId": "51626517"
-          },
-         {
-             "type": "sticker",
-             "packageId": "11538 ",
-             "stickerId": "51626517"
-         }
-          ]
 
-        elsif event.message['text'] =~ /OL/
+        elsif event.message['text'] =~ /OLどこ？/
           client.reply_message(event['replyToken'], template)
         else
-        message = {
-            type: 'text',
-            text: '位置情報から俺のオススメのレストランを教えます。「OL」と話しかけてね！'
-        }
+          message =[ {
+                         "type": "sticker",
+                         "packageId": "11538 ",
+                         "stickerId": "51626517"
+                     },
+                     {
+                         type: 'text',
+                         text: '位置情報から俺のオススメのレストランを教えちゃうぞ。「OLどこ？」と話しかけてね！'
+                     }
+          ]
         end
         client.reply_message(event['replyToken'], message)
       when Line::Bot::Event::MessageType::Image, Line::Bot::Event::MessageType::Video
