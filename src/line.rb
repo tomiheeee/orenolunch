@@ -38,7 +38,7 @@ post '/callback' do
         elsif event.message['text'] =~ /OE/
           message = {
               "type": "text",
-              "text": 'ORE no EMOJI https://orenoemoji.herokuapp.com/'
+              "text": 'ORE no EMOJI <br> https://orenoemoji.herokuapp.com/'
           }
 
 
@@ -52,7 +52,7 @@ post '/callback' do
                      },
                      {
                          type: 'text',
-                         text: '位置情報から俺のオススメのレストランを教えちゃうぞ。「OLどこ？」と話しかけてね！'
+                         text: '位置情報から俺のオススメのランチを教えちゃうぞ。「OLどこ？」と話しかけてね！'
                      }
           ]
         end
