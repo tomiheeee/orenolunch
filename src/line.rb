@@ -37,7 +37,7 @@ post '/callback' do
 
         elsif event.message['text'] =~ /OE/
           message = {
-              "type": "sticker"
+              "type": "text"
               text: ORE no EMOJI https://orenoemoji.herokuapp.com/
           }
 
