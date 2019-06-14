@@ -35,11 +35,11 @@ post '/callback' do
                   "stickerId": "51626498"
           }
 
-        elsif event.message['text'] =~ //
+        elsif event.message['text'] =~ /お腹すいた/
           message = {
               "type": "sticker",
               "packageId": "11538 ",
-              "stickerId": "51626498"
+              "stickerId": "51626517"
           }
 
         elsif event.message['text'] =~ /OL/
