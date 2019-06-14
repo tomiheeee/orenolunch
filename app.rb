@@ -79,7 +79,7 @@ helpers do
   # end
 
   # APIで取得したレストラン情報をLINEで送信できる構文に整形
-  def set_restaurants_info restaurants
+  def set_restaurants_info(restaurants)
     elements = []
     restaurants["rest"].each do |rest|
       image = rest["image_url"]["shop_image1"].empty? ? "http://techpit-bot.herokuapp.com/images/no-image.png" : rest["image_url"]["shop_image1"]
@@ -112,6 +112,7 @@ helpers do
           }
       )
     end
+    elements
   end
 
 
