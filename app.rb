@@ -35,45 +35,45 @@ helpers do
   end
 
 
-  # 送られた位置情報から緯度,経度を取得
-  def get_location(longitude, latitude)
-    uri = URI(GNAVI_SEARCHAPI)
-    uri.query = URI.encode_www_form({
-    method: "getRestaurants",
-        x: longitude,
-        y: latitude
-    })
-    res = Net::HTTP.get_response(uri)
-    JSON.parse(res.body)["name"]
-  end
+  # # 送られた位置情報から緯度,経度を取得
+  # def get_location(longitude, latitude)
+  #   uri = URI(GNAVI_SEARCHAPI)
+  #   uri.query = URI.encode_www_form({
+  #   method: "getRestaurants",
+  #       x: longitude,
+  #       y: latitude
+  #   })
+  #   res = Net::HTTP.get_response(uri)
+  #   JSON.parse(res.body)["name"]
+  # end
 
   # ぐるなびAPIでレストランを検索
-  def get_restaurants latitude, longitude
+  def get_restaurants(latitude, longitude)
     # 緯度,経度,範囲を指定
     params = "?keyid=#{GNAVI_KEYID}&latitude=#{latitude}&longitude=#{longitude}"
     restaurants = JSON.parse(RestClient.get GNAVI_SEARCHAPI + params)
+    binding.pry
     restaurants
   end
 
-  # def gnavi_api(latitude, longitude):
-  #     key = GNAVI_KEYID
-  #     url = GNAVI_SEARCHAPI
-  #     search_range = '1' # 半径300mを検索
-  # params = urllib.parse.urlencode({
-  #                                     'keyid': key,
-  #                                     'latitude': latitude,
-  #                                     'longitude': longitude,
-  #                                     'range': search_range,
-  #                                     'freeword': freeword
-  #                                     # 最大10件
-  #
-  # })
-  # try:
-  #     response = urllib.request.urlopen(url + '?' + params)
-  # return response.read()
-  # except:
-  #     raise Exception('ぐるなびAPIへのアクセスに失敗しました')
-  # end
+  def gnavi_api(latitude, longitude)
+      key = GNAVI_KEYID
+      url = GNAVI_SEARCHAPI
+      search_range = '1' # 半径300mを検索
+  params = urllib.parse.urlencode({
+                                      'keyid': key,
+                                      'latitude': latitude,
+                                      'longitude': longitude,
+                                      'range': search_range,
+                                      'freeword': freeword
+                                      # 最大10件
+
+  })
+  try:
+      response = urllib.request.urlopen(url + '?' + params)
+  return response.read()
+
+  end
 
   # APIで取得したレストラン情報をLINEで送信できる構文に整形
   def set_restaurants_info restaurants

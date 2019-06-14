@@ -47,7 +47,7 @@ post '/callback' do
           p event["message"]["latitude"]
           p event["message"]["longitude"]
           # APIを呼び出す
-          p get_location(event["message"]["longitude"], event["message"]["latitude"])
+          p get_restaurants(event["message"]["latitude"], event["message"]["longitude"])
       end
       end
     end
