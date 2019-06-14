@@ -21,10 +21,10 @@ helpers do
         "altText": "OL検索中",
         "template": {
             "type": "buttons",
-            "thumbnailImageUrl": "https://drive.google.com/open?id=1nqgulIuQfpTGwdKnV29QtmBTo4uTi-mr",
-            "imageAspectRatio": "rectangle",
-            "imageSize": "cover",
-            "imageBackgroundColor": "#FFFFFF",
+            # "thumbnailImageUrl": "https://drive.google.com/open?id=1nqgulIuQfpTGwdKnV29QtmBTo4uTi-mr",
+            # "imageAspectRatio": "rectangle",
+            # "imageSize": "cover",
+            # "imageBackgroundColor": "#FFFFFF",
             "title": "近くのOLを探す",
             "text": "現在の位置を送信しますか？",
             "actions": [
