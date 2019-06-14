@@ -35,17 +35,17 @@ helpers do
   end
 
 
-  # # 送られた位置情報から緯度,経度を取得
-  # def get_location(longitude, latitude)
-  #   uri = URI(GNAVI_SEARCHAPI)
-  #   uri.query = URI.encode_www_form({
-  #   method: "getRestaurants",
-  #       x: longitude,
-  #       y: latitude
-  #   })
-  #   res = Net::HTTP.get_response(uri)
-  #   JSON.parse(res.body)["name"]
-  # end
+  # 送られた位置情報から緯度,経度を取得
+  def get_location(longitude, latitude)
+    uri = URI(GNAVI_SEARCHAPI)
+    uri.query = URI.encode_www_form({
+    method: "getRestaurants",
+        x: longitude,
+        y: latitude
+    })
+    res = Net::HTTP.get_response(uri)
+    JSON.parse(res.body)["name"]
+  end
 
   # ぐるなびAPIでレストランを検索
   def get_restaurants latitude, longitude
