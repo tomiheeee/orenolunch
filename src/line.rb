@@ -47,7 +47,7 @@ post '/callback' do
       when Line::Bot::Event::MessageType::Image, Line::Bot::Event::MessageType::Video
         message = {
             type: 'text',
-            text: '写真には非対応だよ！!\u{0x100094}'
+            text: '写真には非対応だよ！! \u0x100094'
         }
         client.reply_message(event['replyToken'], message)
       when Line::Bot::Event::MessageType::Location
