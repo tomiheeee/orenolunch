@@ -56,24 +56,24 @@ helpers do
     restaurants
   end
 
-  def gnavi_api(latitude, longitude)
-      key = GNAVI_KEYID
-      url = GNAVI_SEARCHAPI
-      search_range = '1' # 半径300mを検索
-  params = urllib.parse.urlencode({
-                                      'keyid': key,
-                                      'latitude': latitude,
-                                      'longitude': longitude,
-                                      'range': search_range,
-                                      'freeword': freeword
-                                      # 最大10件
-
-  })
-  try:
-      response = urllib.request.urlopen(url + '?' + params)
-  return response.read()
-
-  end
+  # def gnavi_api(latitude, longitude)
+  #     key = GNAVI_KEYID
+  #     url = GNAVI_SEARCHAPI
+  #     search_range = '1' # 半径300mを検索
+  # params = urllib.parse.urlencode({
+  #                                     'keyid': key,
+  #                                     'latitude': latitude,
+  #                                     'longitude': longitude,
+  #                                     'range': search_range,
+  #                                     'freeword': freeword
+  #                                     # 最大10件
+  #
+  # })
+  # try:
+  #     response = urllib.request.urlopen(url + '?' + params)
+  # return response.read()
+  #
+  # end
 
   # APIで取得したレストラン情報をLINEで送信できる構文に整形
   def set_restaurants_info restaurants
