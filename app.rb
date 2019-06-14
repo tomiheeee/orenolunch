@@ -21,7 +21,11 @@ helpers do
         "altText": "OL検索中",
         "template": {
             "type": "buttons",
-            "title": "最寄りのOLを検索",
+            "thumbnailImageUrl": "https://drive.google.com/open?id=1nqgulIuQfpTGwdKnV29QtmBTo4uTi-mr",
+            "imageAspectRatio": "rectangle",
+            "imageSize": "cover",
+            "imageBackgroundColor": "#FFFFFF",
+            "title": "近くのOLを探す",
             "text": "現在の位置を送信しますか？",
             "actions": [
                 {
@@ -52,7 +56,6 @@ helpers do
     # 緯度,経度,範囲を指定
     params = "?keyid=#{GNAVI_KEYID}&latitude=#{latitude}&longitude=#{longitude}"
     restaurants = JSON.parse(RestClient.get GNAVI_SEARCHAPI + params)
-    binding.pry
     restaurants
   end
 
