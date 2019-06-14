@@ -29,10 +29,16 @@ post '/callback' do
               text:  ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
           }
         elsif event.message['text'] =~ /おじさん/
+             message = {
+                 "type": "sticker",
+                 "packageId": "11538 ",
+                 "stickerId": "51626498"
+             }
+
+        elsif event.message['text'] =~ /OE/
           message = {
-                  "type": "sticker",
-                  "packageId": "11538 ",
-                  "stickerId": "51626498"
+              "type": "sticker"
+              text: ORE no EMOJI https://orenoemoji.herokuapp.com/
           }
 
 
