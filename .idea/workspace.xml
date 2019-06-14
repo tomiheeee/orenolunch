@@ -2,7 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0419aaf-be25-4e0f-a1cc-9ebbc1921c50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/orenolunch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/orenolunch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/bin/gdb_wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/bin/rdebug-ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/cache/ruby-debug-ide-0.7.0.gem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/extensions/x86_64-darwin-18/2.5.0-static/debase-0.2.2/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/extensions/x86_64-darwin-18/2.5.0-static/debase-0.2.2/gem_make.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/extensions/x86_64-darwin-18/2.5.0-static/ruby-debug-ide-0.7.0/gem.build_complete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/extensions/x86_64-darwin-18/2.5.0-static/ruby-debug-ide-0.7.0/gem_make.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/CHANGES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/ChangeLog.archive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/ChangeLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/MIT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/bin/gdb_wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/bin/rdebug-ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/ext/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/ext/mkrf_conf.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/attach/debugger_loader.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/attach/gdb.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/attach/lldb.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/attach/native_debugger.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/attach/process_thread.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/attach/util.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/command.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/breakpoints.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/catchpoint.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/condition.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/control.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/enable.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/eval.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/expression_info.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/file_filtering.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/frame.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/inspect.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/jump.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/load.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/pause.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/set_type.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/stepping.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/threads.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/commands/variables.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/event_processor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/greeter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/ide_processor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/interface.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/multiprocess.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/multiprocess/monkey.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/multiprocess/pre_child.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/multiprocess/starter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/multiprocess/unmonkey.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/thread_alias.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/lib/ruby-debug-ide/xml_printer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/ruby-debug-ide-0.7.0/ruby-debug-ide.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/specifications/ruby-debug-ide-0.7.0.gemspec" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +77,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.rb">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/line.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+            <state relative-caret-position="360">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -48,9 +119,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.ru" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/src/line.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/app.rb" />
       </list>
     </option>
   </component>
@@ -147,19 +219,19 @@
       <option name="presentableId" value="Default" />
       <updated>1560399764202</updated>
       <workItem from="1560399766286" duration="17860000" />
-      <workItem from="1560479249273" duration="1200000" />
+      <workItem from="1560479249273" duration="1581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19060000" />
+    <option name="totallyTimeSpent" value="19441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.22222222" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -178,27 +250,6 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22222222" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -240,13 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/sinatra-2.0.5/lib/sinatra/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -264,17 +308,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/line.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="360">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
         </state>
       </provider>
     </entry>

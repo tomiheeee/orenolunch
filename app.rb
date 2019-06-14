@@ -21,6 +21,10 @@ helpers do
         "altText": "OL検索中",
         "template": {
             "type": "buttons",
+            "thumbnailImageUrl": "https://drive.google.com/open?id=1nqgulIuQfpTGwdKnV29QtmBTo4uTi-mr",
+            "imageAspectRatio": "rectangle",
+            "imageSize": "cover",
+            "imageBackgroundColor": "#FFFFFF",
             "title": "近くのOLを探す",
             "text": "現在の位置を送信しますか？",
             "actions": [
@@ -32,6 +36,7 @@ helpers do
             ]
         }
     }
+  end
 
 
   # # 送られた位置情報から緯度,経度を取得
