@@ -35,7 +35,14 @@ post '/callback' do
                   "stickerId": "51626498"
           }
 
-        elsif event.message['text'] =~ /おじさん/
+        elsif event.message['text'] =~ //
+          message = {
+              "type": "sticker",
+              "packageId": "11538 ",
+              "stickerId": "51626498"
+          }
+
+        elsif event.message['text'] =~ /OL/
           client.reply_message(event['replyToken'], template)
         else
         message = {
@@ -47,7 +54,7 @@ post '/callback' do
       when Line::Bot::Event::MessageType::Image, Line::Bot::Event::MessageType::Video
         message = {
             type: 'text',
-            text: '写真には非対応だよ！! \u0x100094'
+            text: '写真には非対応だよ！! \u0x100094 LINE emoji'
         }
         client.reply_message(event['replyToken'], message)
       when Line::Bot::Event::MessageType::Location
