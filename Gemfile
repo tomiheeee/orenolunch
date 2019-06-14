@@ -9,3 +9,8 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'rake'
 gem 'line-bot-api'
+
+group :development do
+  gem 'racksh'
+  gem 'pry-byebug'
+end

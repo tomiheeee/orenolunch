@@ -47,7 +47,7 @@ post '/callback' do
           p event["message"]["latitude"]
           p event["message"]["longitude"]
           # APIを呼び出す
-          p get_restaurants(event["message"]["latitude"], event["message"]["longitude"])
+          p get_location(event["message"]["latitude"], event["message"]["longitude"])
           elements = set_restaurants_info(restaurants)
           client.reply_message(event['replyToken'], elements)
       end
