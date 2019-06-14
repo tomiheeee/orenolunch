@@ -28,7 +28,14 @@ post '/callback' do
               type: 'text',
               text:  ["大吉", "中吉", "小吉", "凶", "大凶"].shuffle.first
           }
-        elsif event.message['text'] =~ /OL/
+        elsif event.message['text'] =~ /おじさん/
+          message = {
+                  "type": "sticker",
+                  "packageId": "11538 ",
+                  "stickerId": "51626498"
+          }
+
+        elsif event.message['text'] =~ /おじさん/
           client.reply_message(event['replyToken'], template)
         else
         message = {
@@ -40,7 +47,7 @@ post '/callback' do
       when Line::Bot::Event::MessageType::Image, Line::Bot::Event::MessageType::Video
         message = {
             type: 'text',
-            text: '写真には非対応だよ！!'
+            text: '写真には非対応だよ！!0x100094'
         }
         client.reply_message(event['replyToken'], message)
       when Line::Bot::Event::MessageType::Location
